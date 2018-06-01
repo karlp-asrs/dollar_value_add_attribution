@@ -7,5 +7,5 @@ Of course, the dollar values added at the component level need to add up to the 
 
 In a scenario with perfect data (the weighted average of the component returns equals the total fund return), the trick turns out to be to reinvest the individual period values added in the total fund benchmark.  
 
-Investment return data are rarely perfect, and this method
+Investment return data are rarely perfect, and this method illustrates how to handle a scenario where the weighted average composite returns don't sum to the total fund return.  To use this, change the muddydata variable to TRUE.  The residual gets pushed in to an "unknown" attribution category.  
 
